@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta NAME="Author" CONTENT="">
+        <meta NAME="Keywords" CONTENT="">
+        <meta NAME="Description" CONTENT="">
+        <link rel="stylesheet" href="Veg.css">
+<script>
+function stickyMenu(){
+    var sticky=document.getElementById('sticky');
+    if(window,pageYOffset > 220){
+        sticky.classList.add('sticky');
+    }
+    else{
+        sticky.classList.remove('sticky');
+    }}
+window.onscroll= function(){
+    stickyMenu();
+}
+</script>
+</head>
+    <body>
+       <div class="parallax">
+       <div class="page-title">Eat Freash</div>
+       </div>
+       <div class="menu" id="sticky">
+        <ul class="menu-ul"> 
+            <a href="#" class="a-menu"><li> Home</li></a>
+            <a href="#deals" class="a-menu"><li> Deals</li></a>
+            <a href="#vegetables" class="a-menu"><li> Vegtables</li></a>
+            <a href="#fruits" class="a-menu"><li> Fruits</li></a>
+            <a href="#meat" class="a-menu"><li> Meat</li></a>
+            <a href="#" class="a-menu"><li> Cart</li></a>
+        </ul>
+        <div class="search-box">
+            <form>
+                <input type="text" placeholder="Search..." name="search" class="search-input"/>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+       </div>
+<div class="container">
+    <a href="#vegetables">
+        <div class="categories">
+            <img src="C:\Users\priya\OneDrive\Desktop\login page\greenpepper.jpeg" class="item-image"/>
+            <div class="image-title">Vegetables</div>
+        </div>
+    </a>
+    <a href="#fruits">
+        <div class="categories">
+            <img src="C:\Users\priya\OneDrive\Desktop\login page\strawberries.jpeg" class="item-image"/>
+            <div class="image-title">Fruits</div>
+        </div>
+    </a>
+    <a href="#meat">
+        <div class="categories">
+            <img src="C:\Users\priya\OneDrive\Desktop\login page\chicken.jpeg" class="item-image"/>
+            <div class="image-title">Meat & Seafood</div>
+        </div>
+    </a>
+    <a href="#deals">
+        <div class="categories">
+            <img src="C:\Users\priya\OneDrive\Desktop\login page\deals.jpeg" class="item-image"/>
+            <div class="image-title">Deals</div>
+        </div>
+    </a>
+</div>
+<div class="deals-container" id="deals">
+    <div class="parallax">
+        <div class="title">DEALS</div>
+    </div>
+    <div class="deal">
+            Save 20% on min-purchase of $149 on vegetables<br/>
+        <button class="coupon-btn">Add Coupon</button>
+    </div>
+    <div class="deal">
+            Save 10% on min-purchase of $179 on fruits<br/>
+        <button class="coupon-btn">Add Coupon</button>
+    </div>
+    <div class="deal">
+            Save 15% on min-purchase of $199 on meat/seafood <br/>
+        <button class="coupon-btn">Add Coupon</button>
+    </div>
+</div>
+<div class="deals-container" id="vegetables">
+    <div class="parallax">
+        <div class="title">VEGETABLES</div>
+    </div>
+</div>
+<div class="items">
+    <div class="images">
+        <img src="C:\Users\priya\OneDrive\Desktop\login page\greenpepper.jpeg" class="item-image-size">
+    </div>
+    <div class="description">
+        <b>Greenpepper</b><br/>
+        <div class="item-select">
+            Price : $5.99/250grams
+        </div>
+        <label>Qty:</label>
+        <select class="item-select" >
+            <option>250 grams</option>
+            <option>500 grams</option>
+            <option>750 grams</option>
+            <option>1000 grams</option>
+        </select><br/>
+        <button class="Buynow-btn">Buy Now</button>
+    </div>
+</div>
+
+</div>
+<div class="items">
+    <div class="images">
+        <img src="C:\Users\priya\OneDrive\Desktop\login page\tomatoes.jpeg" class="item-image-size">
+    </div>
+    <div class="description">
+        <b>Tomatoes</b><br/>
+        <div class="item-select">
+            Price : $5.49/250grams
+        </div>
+        <label>Qty:</label>
+        <select class="item-select" >
+            <option>250 grams</option>
+            <option>500 grams</option>
+            <option>750 grams</option>
+            <option>1000 grams</option>
+        </select><br/>
+        <button class="Buynow-btn">Buy Now</button>
+    </div>
+</div>
+
+</div>
+<div class="items">
+    <div class="images">
+        <img src="C:\Users\priya\OneDrive\Desktop\login page\onion.jpeg" class="item-image-size">
+    </div>
+    <div class="description">
+        <b>Onions</b><br/>
+        <div class="item-select">
+            Price : $4.29/250grams
+        </div>
+        <label>Qty:</label>
+        <select class="item-select" >
+            <option>250 grams</option>
+            <option>500 grams</option>
+            <option>750 grams</option>
+            <option>1000 grams</option>
+        </select><br/>
+        <button class="Buynow-btn">Buy Now</button>
+    </div>
+</div>
+
+</div>
+<div class="items">
+    <div class="images">
+        <img src="C:\Users\priya\OneDrive\Desktop\login page\spinach.jpeg" class="item-image-size">
+    </div>
+    <div class="description">
+        <b>Spinach</b><br/>
+        <div class="item-select">
+            Price : $3.99/250grams
+        </div>
+        <label>Qty:</label>
+        <select class="item-select" >
+            <option>250 grams</option>
+            <option>500 grams</option>
+            <option>750 grams</option>
+            <option>1000 grams</option>
+        </select><br/>
+        <button class="Buynow-btn">Buy Now</button>
+    </div>
+</div>
+
+</div>
+<div class="items">
+    <div class="images">
+        <img src="C:\Users\priya\OneDrive\Desktop\login page\product-9.png" class="item-image-size">
+    </div>
+    <div class="description">
+        <b>Carrots</b><br/>
+        <div class="item-select">
+            Price : $4.99/250grams
+        </div>
+        <label>Qty:</label>
+        <select class="item-select" >
+            <option>250 grams</option>
+            <option>500 grams</option>
+            <option>750 grams</option>
+            <option>1000 grams</option>
+        </select><br/>
+        <button class="Buynow-btn">Buy Now</button>
+    </div>
+</div>
+</div>
+<div class="items">
+    <div class="images">
+        <img src="C:\Users\priya\OneDrive\Desktop\login page\okra.jpeg" class="item-image-size">
+    </div>
+    <div class="description">
+        <b>Okra</b><br/>
+        <div class="item-select">
+            Price : $2.99/250grams
+        </div>
+        <label>Qty:</label>
+        <select class="item-select" >
+            <option>250 grams</option>
+            <option>500 grams</option>
+            <option>750 grams</option>
+            <option>1000 grams</option>
+        </select><br/>
+        <button class="Buynow-btn">Buy Now</button>
+    </div>
+</div>
+<div class="items">
+    <div class="images">
+        <img src="C:\Users\priya\OneDrive\Desktop\login page\brinjal.jpeg" class="item-image-size">
+    </div>
+    <div class="description">
+        <b>Brinjal</b><br/>
+        <div class="item-select">
+            Price : $5.99/250grams
+        </div>
+        <label>Qty:</label>
+        <select class="item-select" >
+            <option>250 grams</option>
+            <option>500 grams</option>
+            <option>750 grams</option>
+            <option>1000 grams</option>
+        </select><br/>
+        <button class="Buynow-btn">Buy Now</button>
+    </div>
+</div>
+<div class="items">
+    <div class="images">
+        <img src="C:\Users\priya\OneDrive\Desktop\login page\drumstick.jpeg" class="item-image-size">
+    </div>
+    <div class="description">
+        <b>Drumstick</b><br/>
+        <div class="item-select">
+            Price : $4.99/250grams
+        </div>
+        <label>Qty:</label>
+        <select class="item-select" >
+            <option>250 grams</option>
+            <option>500 grams</option>
+            <option>750 grams</option>
+            <option>1000 grams</option>
+        </select><br/>
+        <button class="Buynow-btn">Buy Now</button>
+    </div>
+</div>
+<!-------------------------------------------------------------------------------------->
+<div class="deals-container" id="fruits">
+    <div class="parallax">
+        <div class="title">FRUITS</div>
+    </div>
+</div>
+<div class="items">
+<div class="images">
+    <img src="C:\Users\priya\OneDrive\Desktop\login page\kiwi.jpeg" class="item-image-size">
+</div>
+<div class="description">
+    <b>Kiwi</b><br/>
+    <div class="item-select">
+        Price : $7.99/250grams
+    </div>
+    <label>Qty:</label>
+    <select class="item-select" >
+        <option>250 grams</option>
+        <option>500 grams</option>
+        <option>750 grams</option>
+        <option>1000 grams</option>
+    </select><br/>
+    <button class="Buynow-btn">Buy Now</button>
+</div>
+</div>
+
+</div>
+<div class="items">
+<div class="images">
+    <img src="C:\Users\priya\OneDrive\Desktop\login page\dragon.jpeg" class="item-image-size">
+</div>
+<div class="description">
+    <b>Drogan Fruit</b><br/>
+    <div class="item-select">
+        Price : $8.49/250grams
+    </div>
+    <label>Qty:</label>
+    <select class="item-select" >
+        <option>250 grams</option>
+        <option>500 grams</option>
+        <option>750 grams</option>
+        <option>1000 grams</option>
+    </select><br/>
+    <button class="Buynow-btn">Buy Now</button>
+</div>
+</div>
+
+</div>
+<div class="items">
+<div class="images">
+    <img src="C:\Users\priya\OneDrive\Desktop\login page\strawberries.jpeg" class="item-image-size">
+</div>
+<div class="description">
+    <b>Strawberries</b><br/>
+    <div class="item-select">
+        Price : $4.99/250grams
+    </div>
+    <label>Qty:</label>
+    <select class="item-select" >
+        <option>250 grams</option>
+        <option>500 grams</option>
+        <option>750 grams</option>
+        <option>1000 grams</option>
+    </select><br/>
+    <button class="Buynow-btn">Buy Now</button>
+</div>
+</div>
+
+</div>
+<div class="items">
+<div class="images">
+    <img src="C:\Users\priya\OneDrive\Desktop\login page\watermelon.jpeg" class="item-image-size">
+</div>
+<div class="description">
+    <b>Water Melon</b><br/>
+    <div class="item-select">
+        Price : $3.99/250grams
+    </div>
+    <label>Qty:</label>
+    <select class="item-select" >
+        <option>250 grams</option>
+        <option>500 grams</option>
+        <option>750 grams</option>
+        <option>1000 grams</option>
+    </select><br/>
+    <button class="Buynow-btn">Buy Now</button>
+</div>
+</div>
+
+</div>
+<div class="items">
+<div class="images">
+    <img src="C:\Users\priya\OneDrive\Desktop\login page\banana.jpeg" class="item-image-size">
+</div>
+<div class="description">
+    <b>Banana</b><br/>
+    <div class="item-select">
+        Price : $4.99/250grams
+    </div>
+    <label>Qty:</label>
+    <select class="item-select" >
+        <option>250 grams</option>
+        <option>500 grams</option>
+        <option>750 grams</option>
+        <option>1000 grams</option>
+    </select><br/>
+    <button class="Buynow-btn">Buy Now</button>
+</div>
+</div>
+<div class="items">
+    <div class="images">
+        <img src="C:\Users\priya\OneDrive\Desktop\login page\apple.jpeg" class="item-image-size">
+    </div>
+    <div class="description">
+        <b>Apples</b><br/>
+        <div class="item-select">
+            Price : $5.99/250grams
+        </div>
+        <label>Qty:</label>
+        <select class="item-select" >
+            <option>250 grams</option>
+            <option>500 grams</option>
+            <option>750 grams</option>
+            <option>1000 grams</option>
+        </select><br/>
+        <button class="Buynow-btn">Buy Now</button>
+    </div>
+</div>
+</div>
+<div class="items">
+    <div class="images">
+        <img src="C:\Users\priya\OneDrive\Desktop\login page\orange.jpeg" class="item-image-size">
+    </div>
+    <div class="description">
+        <b>Orange</b><br/>
+        <div class="item-select">
+            Price : $6.99/250grams
+        </div>
+        <label>Qty:</label>
+        <select class="item-select" >
+            <option>250 grams</option>
+            <option>500 grams</option>
+            <option>750 grams</option>
+            <option>1000 grams</option>
+        </select><br/>
+        <button class="Buynow-btn">Buy Now</button>
+    </div>
+</div>
+</div>
+<div class="items">
+    <div class="images">
+        <img src="C:\Users\priya\OneDrive\Desktop\login page\mango.jpeg" class="item-image-size">
+    </div>
+    <div class="description">
+        <b>Mango</b><br/>
+        <div class="item-select">
+            Price : $8.99/250grams
+        </div>
+        <label>Qty:</label>
+        <select class="item-select" >
+            <option>250 grams</option>
+            <option>500 grams</option>
+            <option>750 grams</option>
+            <option>1000 grams</option>
+        </select><br/>
+        <button class="Buynow-btn">Buy Now</button>
+    </div>
+</div>
+</div>
+<!---------------------------------------------------------------------------------------------->
+
+
+<div class="deals-container" id="meat">
+    <div class="parallax">
+        <div class="title">MEAT & SEAFOOD</div>
+    </div>
+
+</div>
+<div class="items">
+<div class="images">
+    <img src="C:\Users\priya\OneDrive\Desktop\login page\chicken.jpeg" class="item-image-size">
+</div>
+<div class="description">
+    <b>Whole Chicken</b><br/>
+    <div class="item-select">
+        Price : $3.99/250grams
+    </div>
+    <label>Qty:</label>
+    <select class="item-select" >
+        <option>250 grams</option>
+        <option>500 grams</option>
+        <option>750 grams</option>
+        <option>1000 grams</option>
+    </select><br/>
+    <button class="Buynow-btn">Buy Now</button>
+</div>
+</div>
+
+</div>
+<div class="items">
+<div class="images">
+    <img src="C:\Users\priya\OneDrive\Desktop\login page\lamb.jpeg" class="item-image-size">
+</div>
+<div class="description">
+    <b>Fresh Lamb</b><br/>
+    <div class="item-select">
+        Price : $7.49/250grams
+    </div>
+    <label>Qty:</label>
+    <select class="item-select" >
+        <option>250 grams</option>
+        <option>500 grams</option>
+        <option>750 grams</option>
+        <option>1000 grams</option>
+    </select><br/>
+    <button class="Buynow-btn">Buy Now</button>
+</div>
+</div>
+
+</div>
+<div class="items">
+<div class="images">
+    <img src="C:\Users\priya\OneDrive\Desktop\login page\prawns.jpeg" class="item-image-size">
+</div>
+<div class="description">
+    <b>Peeled Prawns</b><br/>
+    <div class="item-select">
+        Price : $8.99/250grams
+    </div>
+    <label>Qty:</label>
+    <select class="item-select" >
+        <option>250 grams</option>
+        <option>500 grams</option>
+        <option>750 grams</option>
+        <option>1000 grams</option>
+    </select><br/>
+    <button class="Buynow-btn">Buy Now</button>
+</div>
+</div>
+
+</div>
+<div class="items">
+<div class="images">
+    <img src="C:\Users\priya\OneDrive\Desktop\login page\fish.jpeg" class="item-image-size">
+</div>
+<div class="description">
+    <b>Live Fish</b><br/>
+    <div class="item-select">
+        Price : $6.99/250grams
+    </div>
+    <label>Qty:</label>
+    <select class="item-select" >
+        <option>250 grams</option>
+        <option>500 grams</option>
+        <option>750 grams</option>
+        <option>1000 grams</option>
+    </select><br/>
+    <button class="Buynow-btn">Buy Now</button>
+</div>
+</div>
+<!---------------------------------------------------------------------------------------------------------->
+<div class="parallax1">
+    <div class="footer">
+        <div class="quick-inks">
+            <div>Locations</div>
+            <ul>
+                <li><a href="" class="a-links">Address 1</a></li>
+                <li><a href="" class="a-links">Address 2</a></li>
+                <li><a href="" class="a-links">Address 2</a></li> 
+            </ul>
+        </div>
+        <div class="quick-inks">
+            <div>Careers</div>
+            <ul>
+                <li><a href="" class="a-links">Packing Staff</a></li>
+                <li><a href="" class="a-links">Delivert Agents</a></li>
+                <li><a href="" class="a-links">Shelf Fillers</a></li> 
+            </ul>
+        </div>
+        <div class="quick-inks">
+            <div>Quick Links</div>
+            <ul>
+                <li><a href="" class="a-links">Contact Us</a></li>
+                <li><a href="" class="a-links">FAQ</a></li>
+                <li><a href="" class="a-links">Help</a></li> 
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="copyrights">
+    <i class="far fa-copyright fa-lx"></i>2023 By priya's Grocery store
+</div>
+    </body>
+</html>
